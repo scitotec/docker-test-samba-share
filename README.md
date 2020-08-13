@@ -1,11 +1,18 @@
 # Test Samba Share
 
 This container allows to provide Samba shares whose content can be viewed with
-a browser. 
-
+a browser.
 
 **WARNING:** This is **not** for production use. It's an insecure tool for
 testing or development.
+
+
+This tool is brought to you by [Scitotec](https://scitotec.de).
+
+## License
+
+- This project is under [MIT License](LICENSE)
+- The wrapped [dperson/samba](https://hub.docker.com/r/dperson/samba) is under GNU Affero General Public License v3.0
 
 ## But... why?
 If you have applications writing to a share, you might need a
