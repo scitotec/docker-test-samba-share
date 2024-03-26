@@ -1,4 +1,6 @@
-FROM dperson/samba:latest@sha256:e1d2a7366690749a7be06f72bdbf6a5a7d15726fc84e4e4f41e967214516edfd
+FROM --platform=linux/amd64 dperson/samba:latest@sha256:e1d2a7366690749a7be06f72bdbf6a5a7d15726fc84e4e4f41e967214516edfd
+FROM --platform=linux/arm dperson/samba:latest@sha256:9295923d089cb29c56786c1092c295442f6ca88e3362deb7600a6774cb63434b
+FROM --platform=linux/arm64 dperson/samba:latest@sha256:4cb487986c024c4b42c7900b03ee5cc051d66ba57ec687c9f393e64a54cac3e3
 
 RUN apk --no-cache add nginx &&\
     mkdir /shares &&\
