@@ -1,5 +1,8 @@
 # Test Samba Share
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/scitotec/test-samba-share)](https://hub.docker.com/r/scitotec/test-samba-share)
+
+
 This container allows to provide Samba shares whose content can be viewed with
 a browser.
 
